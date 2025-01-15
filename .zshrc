@@ -352,9 +352,9 @@ source ~/Dotfiles/config/zsh/zsh-syntax-highlightin-tokyonight.zsh
 source <(fzf --zsh)
 
 # Zoxide config for zsh plugins 
-eval "$(zoxide init --cmd cd zsh)"
+# eval "$(zoxide init --cmd cd zsh)"
 
 
 # Tmuxifier config for zsh plugins  
-eval "$(tmuxifier init -)"
+# eval "$(tmuxifier init -)"
 

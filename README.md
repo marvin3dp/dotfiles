@@ -5,6 +5,12 @@ This repository contains my personal configuration files and scripts for optimiz
 
 You Need to have Git , FZF, Stow and Zsh installed on your system.
 
+if you have zoxide installed, you can uncomment the zoxide line in the .zshrc file.
+
+and if you have tmuxifier installed, you can uncomment the tmuxifier line in the .zshrc file.
+
+## Installation
+
 To use this repository, simply clone it to your local machine. 
 
 ```bash
