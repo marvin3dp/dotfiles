@@ -22,3 +22,13 @@ Run stow to install the dotfiles.
 ```bash
 stow .
 ```
+
+You are now ready to use the dotfiles in your environment.
+
+## Contributing
+
+If you have any suggestions or find any bugs, please open an issue or pull request on GitHub.
+
+## License
+
+This repository is released under the [MIT License](LICENSE).
