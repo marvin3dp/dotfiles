@@ -342,7 +342,7 @@ function random_bars() {
 #######################################################
 # ZSH Syntax highlighting
 #######################################################
-source ~/Dotfiles/config/zsh/zsh-syntax-highlightin-tokyonight.zsh
+source ~/.config/zsh/zsh-syntax-highlightin-tokyonight.zsh
 
 #######################################################
 # Shell integrations
