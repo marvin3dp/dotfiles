@@ -139,11 +139,11 @@
   },
   "cpu": {
     "format": " {usage: >3}%",
-    "on-click": "alacritty -e htop"
+    "on-click": "ghostty -e htop"
   },
   "memory": {
     "format": " {: >3}%",
-    "on-click": "alacritty -e htop"
+    "on-click": "ghostty -e htop"
   },
   "temperature": {
     "thermal-zone": 4,
@@ -157,7 +157,7 @@
     // "interval": 30,
     "format": " {percentage_used}% ",
     "path": "/",
-    //"on-click": "alacritty -e htop"
+    //"on-click": "ghostty -e htop"
   }, 
     // Group Hardware
     "group/hardware": {
@@ -212,14 +212,14 @@
     "tooltip-format-wifi": "   {essid} ({signalStrength}%)",
     "tooltip-format-ethernet": "  {ifname} ({ipaddr}/{cidr})",
     "tooltip-format-disconnected": "⚠  Disconnected",
-    // "on-click": "alacritty -e nmtui"
+    // "on-click": "ghostty -e nmtui"
     "on-click": "nm-connection-editor"
   },
   "pulseaudio": {
     // "scroll-step": 1,
     "format": "{icon} {volume: >3}%",
     "format-bluetooth": "{icon} {volume: >3}%",
-    "format-muted": " muted",
+    "format-muted": "",
     "format-icons": {
       "headphones": "",
       "handsfree": "",
@@ -240,12 +240,13 @@
     "interval": 7200, // every two hours
     "exec": "i=$(checkupdates); echo \"$i\" |wc -l; echo \"$i\" |column -t |tr '\n' '\r'", // # of updates and tooltip details
     "exec-if": "exit 0", // always run; consider advanced run conditions
-    "on-click": "alacritty -e sudo pacman -Syu", // update system
+    "on-click": "ghostty -e sudo pacman -Syu", // update system
     "signal": 8
   },
   "custom/power": {
     "format": "⏻",
-    "on-click": "wlogout -p layer-shell",
+    // "on-click": "wlogout -p layer-shell",
+    "on-click": "~/.config/rofi/powermenu/powermenu.sh",
     "tooltip": false
   },
   "custom/keyboard-layout": {
