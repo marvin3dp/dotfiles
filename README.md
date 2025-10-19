@@ -14,7 +14,7 @@ and if you have tmuxifier installed, you can uncomment the tmuxifier line in the
 To use this repository, simply clone it to your local machine. 
 
 ```bash
-git clone https://github.com/codeopshq/dotfiles.git
+git clone https://github.com/marvin3dp/dotfiles
 ```
 
 Once cloned, navigate to the desired directory.
